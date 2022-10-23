@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/Avatar.jpeg" alt="Vishnu Shetty B" width="50">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Vishnu Shetty B">Vishnu Shetty B</h1>
+
+          <p class="title">Software developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:vishnushettyb060601@gmail.com" class="contact-link">vishnushettyb060601@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+91-8762154924" class="contact-link">+91- 8762154924</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2001-06-06">June 06, 2001</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Bangalore, Karnataka, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a 4th-year computer science undergraduate student at Vellore Institute of Technology(VIT, Vellore). A coder by passion, I've worked on many projects related to Machine Learning/Artificial Intelligence. Computer Vision and Neural Networks are my current research interests, and I believe they will revolutionize the future of autonomous vehicles. Developing Neural Networks that rival the human eye's capabilities is my goal.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+<br>
+<br>
+        <section class="service">
+
+          <h3 class="h3 service-title">My Interests</h3>
+          <br>
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/machine-learning.png
+                " alt="Machine Learning" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning</h4>
+
+                <p class="service-item-text">
+                  Developing machine learning models to solve real world problems.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/vision.png" alt="Computer Vision" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Computer Vision</h4>
+
+                <p class="service-item-text">
+                  Using Computer Vision to optimze existing processes.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/data.png" alt="Web Development" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Development</h4>
+
+                <p class="service-item-text">
+                  Creating intuitive and user friendly websites.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/soccer-ball.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Soccer</h4>
+
+                <p class="service-item-text">
+                  Taking part in a game of football helps me focus and de-stress.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <div class="modal-img-wrapper">
+            </div>
+
+            <div class="modal-content">
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Vidya Niketan School, Bangalore</h4>
+
+              <span>2007 — 2017</span>
+              <p class="timeline-text">
+                Elementary and Middle School
+                <br>
+                10th Std - 94 %
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Hymamshu Jyothi Kala Peetha, Bangalore</h4>
+
+              <span>2017 — 2019</span>
+
+              <p class="timeline-text">
+                High School
+                <br>
+                12th Std - 85 %
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Vellore Institute of Technology, Vellore</h4>
+
+              <span>2019-2023</span>
+
+              <p class="timeline-text">
+                Bachelors of Technology in Computer Science and Engineering
+                <br>
+                CGPA- 9.57/10 <i> (Top 1-2%)</i>
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Research Assistant | Guide: Jothi K R |<i> Vellore Institute of Technology</i></h4>
+
+              <span>July,2022 — Present</span>
+              <b><a href="https://drive.google.com/file/d/1E1Wyqmu03p324Lz4mCHLjlwfWqgiTuLY/view?usp=sharing" target="_blank">PAPER LINK</a></b>
+
+              <ul class="timeline-text">
+                <li style="list-style-type: circle;">Authored a paper reviewing various techniques to optimize the Proof of Work(PoW) consensus mechanism.</li>
+                <li style="list-style-type: circle;">Analyzed and compared various approaches to improving the PoW mechanism, including machine-learning techniques, IOT optimizations, hardware optimizations, and hybrid algorithms.</li>
+              </ul>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Intern |<i> Bharat Electronics Limited (a Ministry of Defence of India PSU)</i></h4>
+
+              <span>May,2022 — June,2022</span>
+
+              <ul class="timeline-text">
+                <li style="list-style-type: circle;">Created REST APIs for the Supplier Management Portal of the Indian military using Spring Boot, to fetch purchase orders, credit/debit notes, and discrepancy data, and also designed and integrated REACT UIs to display information for merchants.</li>
+                <li style="list-style-type: circle;">Developed an Authentication Mechanism for the suppliers using Spring Security.</li>
+              </ul>
+
+            </li>
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Research Intern | Guide: Ankur Raina |<i> Indian Institute of Science Education and Research Bhopal</i></h4>
+
+              <span>December,2021 — May,2022</span>
+              <b><a href="https://drive.google.com/file/d/1i4vgpLxTee9aievFJKcnGXKTcDfYmqE8/view?usp=sharing" target="_blank">PAPER LINK</a></b>
+              <ul class="timeline-text">
+                <li style="list-style-type: circle;">Generated, filtered, and calculated minimum distance for the graph dataset with nodes ranging from 3 to 9.</li>
+                <li style="list-style-type: circle;">Analyzed the most influential parameters of the graph nodes in predicting the minimum distance.</li>
+                <li style="list-style-type: circle;">Developed a Decision Tree model to predict the minimum distance of error correction in higher-degree graphs and achieved accuracies up to 80%.</li>
+              </ul>
+
+            </li>
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Research Assistant | Guide: Aju Dennisan |<i> Vellore Institute of Technology</i></h4>
+
+              <span>December,2021 — May,2022</span>
+              <b><a href="https://drive.google.com/file/d/1h4FNgdLeLb8wvXNZgySyOt7Q733jfUGJ/view?usp=sharing" target="_blank">PAPER LINK</a></b>
+              <ul class="timeline-text">
+                <li style="list-style-type: circle;">Hybridized RSA, an asymmetric algorithm with CBC, a symmetric algorithm, and utilized OpenCV to determine and encrypt only the sensitive regions of an image, optimizing time and space.</li>
+                <li style="list-style-type: circle;">Achieved a 40% improvement in encryption/decryption time, as well as a 90% decrease in the correlation of the encrypted image in comparison with the original RSA algorithm.</li>
+              </ul>
+
+            </li>
+
+          
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+          <div class="skills content-card">
+            <p class="h4 timeline-item-title"><b>Languages:</b></p> <p class="timeline-text">C, C++, Java, Python, Matlab, Spring Boot, HTML, CSS, JavaScript, React js, PHP, LaTeX, SQL.</p>
+            <br>
+            <p class="h4 timeline-item-title"><b>Libraries:</b></p> <p class="timeline-text">Open CV, NumPy, Pandas, Scikit-learn, Matplotlib, TensorFlow, Keras.</p>
+          </div>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Machine Learning</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Computer Vision</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Application</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Game development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Blockchain</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-filter-btn>Machine</button>
+              </li>
+  
+              <li class="select-item">
+                <button data-filter-btn>Vision</button>
+              </li>
+  
+              <li class="select-item">
+                <button data-filter-btn>Web</button>
+              </li>
+  
+              <li class="select-item">
+                <button data-filter-btn>Game</button>
+              </li>
+  
+              <li class="select-item">
+                <button data-filter-btn>Blockchain</button>
+              </li>
+
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/vishnu-06/Intelligent-Stock-Trading" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Stock.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Intelligent Stock Prediction</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="computer vision">
+              <a href="https://github.com/vishnu-06/Selective-Region-Hybrid-Multiple-Key-Authentication-System-for-Digital-Image" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Image.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Selective Region Encryption</h3>
+
+                <p class="project-category">Computer Vision</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/vishnu-06/Covid-Vaccination-Enrollment" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Vaccine.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Covid Vaccination Enrollment</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="blockchain">
+              <a href="https://github.com/vishnu-06/Blockchain-based-E-voting" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Blockchain.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Blockchain based E-voting</h3>
+
+                <p class="project-category">Blockchain</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web application">
+              <a href="https://github.com/vishnu-06/Movie-booking-website" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Movie booking.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Movie booking website</h3>
+
+                <p class="project-category">Web Application</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="game development">
+              <a href="https://github.com/vishnu-06/Pacman-Game" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Pacman.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">PACMAN</h3>
+
+                <p class="project-category">Game Development</p>
+
+              </a>
+            </li>
+
+           
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+    
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function() {
+                // https://dashboard.emailjs.com/admin/account
+                emailjs.init('sTxNR_bEi_oIDda_T');
+            })();
+        </script>
+        <script type="text/javascript">
+            window.onload = function() {
+                document.getElementById('myForm').addEventListener('submit', function(event) {
+                    event.preventDefault();
+                    this.contact_number.value = Math.random() * 100000 | 0;
+                    // these IDs from the previous steps
+                    emailjs.sendForm('service_tvbdtmr', 'template_elge6s2', this)
+                        .then(function() {
+                            console.log('SUCCESS!');
+                            
+                        }, function(error) {
+                            console.log('FAILED...', error);
+                        });
+                        this.reset();
+                });
+            }
+        </script>
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form id="myForm">
+
+            <div class="input-wrapper">
+              <input type="hidden" name="contact_number">
+              <input type="text" name="name" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" value="Send">
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
